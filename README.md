@@ -1,4 +1,4 @@
-# GameProject1
+# game-project1
 
 ALISゲームプロジェクトに関することを、こちらにも記載していきます。<br>
 <br>
