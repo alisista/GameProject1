@@ -39,7 +39,7 @@ CPU：1GHz あれば十分<br>
 ・必要なもの<br>
 Windows + Visual Studio（「Visual C#」。無料版で動作可能）<br>
 <br>
-１，programディレクトリ内のデータを全部DL<br>
+１，programディレクトリのデータを全部DL<br>
 ２，「bin.zip」を同一ディレクトリで解凍<br>
 ３，「game-project1.sln」を起動<br>
 ４，VSでビルド（debug）<br>
