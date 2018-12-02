@@ -1,0 +1,43 @@
+﻿
+ステータスには、タイプの影響が入る。
+
+緑 → MP+
+
+黄 → HP+
+
+朱 → ATK+
+
+蒼 → INT+
+
+
+
+
+
+
+//余ったソース
+
+/*
+//自身の属性に合った使用マナが無いと行動に移れない
+{
+    int[] att_move_ok_box = new int[9];
+    for (int t = 0; t < 9; t++) { att_move_ok_box[t] = 0; }
+    int need_min_point = 100;
+    int n2 = 0;
+
+    if (s1.battle_run.battle_mana.use_mana_call(s1.am1.MANA_GREEN) >= need_min_point) { att_move_ok_box[s1.am1.ATTRIBUTE_GREEN] = 1; n2 = 1; }
+    if (s1.battle_run.battle_mana.use_mana_call(s1.am1.MANA_YELLOW) >= need_min_point) { att_move_ok_box[s1.am1.ATTRIBUTE_YELLOW] = 1; n2 = 1; }
+    if (s1.battle_run.battle_mana.use_mana_call(s1.am1.MANA_RED) >= need_min_point) { att_move_ok_box[s1.am1.ATTRIBUTE_RED] = 1; n2 = 1; }
+    if (s1.battle_run.battle_mana.use_mana_call(s1.am1.MANA_BLUE) >= need_min_point) { att_move_ok_box[s1.am1.ATTRIBUTE_BLUE] = 1; n2 = 1; }
+
+    if (n2 == 1) { att_move_ok_box[s1.am1.ATTRIBUTE_WHITE] = 1; att_move_ok_box[s1.am1.ATTRIBUTE_BLACK] = 1; }
+            
+    {
+        int att1 = call_attribute_1();
+        int att2 = call_attribute_2();
+
+        if (att_move_ok_box[att1] == 0 && att_move_ok_box[att2] == 0) { nt1 = 0; }
+    }
+            
+}
+*/
+

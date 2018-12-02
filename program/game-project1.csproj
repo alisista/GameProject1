@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BE0ABDE5-B74C-4DD2-8340-E73915322D04}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>game_project1</RootNamespace>
+    <AssemblyName>game-project1</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="src\App1\Base\BaseButton\BaseButton1.cs" />
+    <Compile Include="src\App1\Base\BaseButton\BaseButtonGroup.cs" />
+    <Compile Include="src\App1\Base\BaseButton\BaseButtonSupport.cs" />
+    <Compile Include="src\App1\Base\BaseCharacter\CharacterOrganization.cs" />
+    <Compile Include="src\App1\Base\BaseCharacter\CharacterOrganizationExtend.cs" />
+    <Compile Include="src\App1\Base\BaseCharacter\CharacterOrganizationGroup.cs" />
+    <Compile Include="src\App1\Base\BaseCharacter\CharacterOrganizationGroupSupport.cs" />
+    <Compile Include="src\App1\Base\BaseCharacter\CharacterStatus.cs" />
+    <Compile Include="src\App1\Base\BaseEquipment\EquipmentOrganization.cs" />
+    <Compile Include="src\App1\Base\BaseEquipment\EquipmentOrganizationGroup.cs" />
+    <Compile Include="src\App1\Base\BaseMenu1\BaseMainAddMenu.cs" />
+    <Compile Include="src\App1\Base\BaseMenu1\BaseMenu.cs" />
+    <Compile Include="src\App1\Base\BaseMenu1\BaseTitleMenu.cs" />
+    <Compile Include="src\App1\Base\BaseMisc\BaseBGControl.cs" />
+    <Compile Include="src\App1\Base\BaseMisc\BaseFunction.cs" />
+    <Compile Include="src\App1\Base\BaseMisc\BaseOption.cs" />
+    <Compile Include="src\App1\Base\BaseMisc\BaseStageResult.cs" />
+    <Compile Include="src\App1\Base\BaseParty\PartyCameraControl.cs" />
+    <Compile Include="src\App1\Base\BaseParty\PartySelect.cs" />
+    <Compile Include="src\App1\Base\BaseParty\PartySelectGroup.cs" />
+    <Compile Include="src\App1\Base\BaseRun.cs" />
+    <Compile Include="src\App1\Base\BaseStageSelect\BaseStageSelect1.cs" />
+    <Compile Include="src\App1\Base\BaseStageSelect\BaseStageSelectGroup1.cs" />
+    <Compile Include="src\App1\Battle\BattleEnemyControl\BattleEnemy.cs" />
+    <Compile Include="src\App1\Battle\BattleEnemyControl\BattleEnemyAI.cs" />
+    <Compile Include="src\App1\Battle\BattleEnemyControl\BattleEnemyAIExtend.cs" />
+    <Compile Include="src\App1\Battle\BattleEnemyControl\BattleEnemyAppearControl.cs" />
+    <Compile Include="src\App1\Battle\BattleEnemyControl\BattleEnemyGroup.cs" />
+    <Compile Include="src\App1\Battle\BattleEnemyControl\BattleEnemySkill.cs" />
+    <Compile Include="src\App1\Battle\BattleEnemyControl\BattleEnemySlot.cs" />
+    <Compile Include="src\App1\Battle\BattleEnemyControl\BattleEnemyStatus.cs" />
+    <Compile Include="src\App1\Battle\BattleFlow1.cs" />
+    <Compile Include="src\App1\Battle\BattleFlow\BattleEnemyAttackDamageCalc.cs" />
+    <Compile Include="src\App1\Battle\BattleFlow\BattleEnemyAttackRun.cs" />
+    <Compile Include="src\App1\Battle\BattleFlow\BattleEnemyGroupAttackRun.cs" />
+    <Compile Include="src\App1\Battle\BattleFlow\BattleEnemySkillRun.cs" />
+    <Compile Include="src\App1\Battle\BattleFlow\BattleMemberAttackDamageCalc.cs" />
+    <Compile Include="src\App1\Battle\BattleFlow\BattleMemberAttackRun.cs" />
+    <Compile Include="src\App1\Battle\BattleFlow\BattleMemberGroupAttackRun.cs" />
+    <Compile Include="src\App1\Battle\BattleMemberConrtol\BattleMember.cs" />
+    <Compile Include="src\App1\Battle\BattleMemberConrtol\BattleMemberGroup.cs" />
+    <Compile Include="src\App1\Battle\BattleMemberConrtol\BattleMemberGroupStatusControl.cs" />
+    <Compile Include="src\App1\Battle\BattleMemberConrtol\BattleMemberStatus.cs" />
+    <Compile Include="src\App1\Battle\BattleMisc\BattleEnchantment.cs" />
+    <Compile Include="src\App1\Battle\BattleMisc\BattleEnchantmentSupport.cs" />
+    <Compile Include="src\App1\Battle\BattleMisc\BattleEnchantmentSupportExtend.cs" />
+    <Compile Include="src\App1\Battle\BattleMisc\BattleMana.cs" />
+    <Compile Include="src\App1\Battle\BattleMisc\BattleMessageWindow.cs" />
+    <Compile Include="src\App1\Battle\BattleMisc\BattleSkill.cs" />
+    <Compile Include="src\App1\Battle\BattleMisc\BattleSkillSupport.cs" />
+    <Compile Include="src\App1\Battle\BattleMisc\BattleVariableControl.cs" />
+    <Compile Include="src\App1\Battle\BattleProgram\BattleBg.cs" />
+    <Compile Include="src\App1\Battle\BattleProgram\BattleMenu.cs" />
+    <Compile Include="src\App1\Battle\BattleRun1.cs" />
+    <Compile Include="src\App1\Character\Character1.cs" />
+    <Compile Include="src\App1\Character\CharacterExtend.cs" />
+    <Compile Include="src\App1\Character\CharacterGroup.cs" />
+    <Compile Include="src\App1\Data\DataControl\CharacterData.cs" />
+    <Compile Include="src\App1\Data\DataControl\CharacterDrawPoint.cs" />
+    <Compile Include="src\App1\Data\DataControl\CharacterDrawPointChild.cs" />
+    <Compile Include="src\App1\Data\DataControl\DungeonData.cs" />
+    <Compile Include="src\App1\Data\DataControl\EnchantmentData.cs" />
+    <Compile Include="src\App1\Data\DataControl\EnemyData.cs" />
+    <Compile Include="src\App1\Data\DataControl\EnemyDrawPoint.cs" />
+    <Compile Include="src\App1\Data\DataControl\EnemyDrawPointChild.cs" />
+    <Compile Include="src\App1\Data\DataControl\EquipmentData.cs" />
+    <Compile Include="src\App1\Data\DataControl\NullData.cs" />
+    <Compile Include="src\App1\Data\DataControl\SkillData.cs" />
+    <Compile Include="src\App1\Data\DataManagement1.cs" />
+    <Compile Include="src\App1\EffectControl\Effect1.cs" />
+    <Compile Include="src\App1\EffectControl\EffectExtend.cs" />
+    <Compile Include="src\App1\EffectControl\EffectGroup.cs" />
+    <Compile Include="src\App1\Equipment\Equipment1.cs" />
+    <Compile Include="src\App1\Equipment\EquipmentExtend.cs" />
+    <Compile Include="src\App1\Equipment\EquipmentGroup.cs" />
+    <Compile Include="src\App1\Image\ImageControl1.cs" />
+    <Compile Include="src\App1\Image\ImageSaveCharacter.cs" />
+    <Compile Include="src\App1\Image\ImageSaveCharacterWindow.cs" />
+    <Compile Include="src\App1\Image\ImageSaveDungeonBg.cs" />
+    <Compile Include="src\App1\Image\ImageSaveEnemy.cs" />
+    <Compile Include="src\App1\Image\ImageSaveEquipment.cs" />
+    <Compile Include="src\App1\MainFrame1.cs" />
+    <Compile Include="src\App1\MainRun1.cs" />
+    <Compile Include="src\App1\Sound\BGMControl.cs" />
+    <Compile Include="src\App1\Sound\BGMNameExtend.cs" />
+    <Compile Include="src\App1\Sound\BGMOperation.cs" />
+    <Compile Include="src\App1\Sound\SoundEffectControl.cs" />
+    <Compile Include="src\App1\Sound\SoundEffectNameExtend.cs" />
+    <Compile Include="src\App1\Sound\SoundEffectOperation.cs" />
+    <Compile Include="src\App1\Support1\ApplicationMisc.cs" />
+    <Compile Include="src\App1\Support1\AppVariable1.cs" />
+    <Compile Include="src\App1\Support1\CsvManager.cs" />
+    <Compile Include="src\App1\Support1\DialogWindow.cs" />
+    <Compile Include="src\App1\Support1\DialogWindowExtend.cs" />
+    <Compile Include="src\App1\Support1\DialogWindowSupport.cs" />
+    <Compile Include="src\App1\Support1\DrawMisc.cs" />
+    <Compile Include="src\App1\Support1\FunctionScriptReaderControl.cs" />
+    <Compile Include="src\App1\Support1\GameMisc.cs" />
+    <Compile Include="src\App1\Support1\SaveDataControl.cs" />
+    <Compile Include="src\App1\Support1\SaveDataControlSupport.cs" />
+    <Compile Include="src\App1\Support1\SoundMisc.cs" />
+    <Compile Include="src\App1\Support1\WaitAction.cs" />
+    <Compile Include="src\App1\Support1\WaitActionExtend.cs" />
+    <Compile Include="src\App1\Support1\WaitActionSupport.cs" />
+    <Compile Include="src\App1\Title\TitleMisc\TitleBgEffect.cs" />
+    <Compile Include="src\App1\Title\TitleMisc\TitleBgEffectGroup.cs" />
+    <Compile Include="src\App1\Title\TitleRun.cs" />
+    <Compile Include="src\App1\Useful\Camera2D.cs" />
+    <Compile Include="src\App1\Useful\ClearChange.cs" />
+    <Compile Include="src\App1\Useful\FadeRun.cs" />
+    <Compile Include="src\App1\Useful\ScrollBar1.cs" />
+    <Compile Include="src\App1\Useful\ScrollBar2.cs" />
+    <Compile Include="src\App1\Useful\ShakeMove.cs" />
+    <Compile Include="src\App1\Useful\ValueChange.cs" />
+    <Compile Include="src\App1\Useful\ValueMove.cs" />
+    <Compile Include="src\Start1.cs" />
+    <Compile Include="src\Summary1.cs" />
+    <Compile Include="src\Wrapper1\BGM1.cs" />
+    <Compile Include="src\Wrapper1\BGMData1.cs" />
+    <Compile Include="src\Wrapper1\CsvData.cs" />
+    <Compile Include="src\Wrapper1\FunctionScriptReader.cs" />
+    <Compile Include="src\Wrapper1\ImageData1.cs" />
+    <Compile Include="src\Wrapper1\Input1.cs" />
+    <Compile Include="src\Wrapper1\MainCanvas1.cs" />
+    <Compile Include="src\Wrapper1\Misc1.cs" />
+    <Compile Include="src\Wrapper1\Null1.cs" />
+    <Compile Include="src\Wrapper1\SetVoid1.cs" />
+    <Compile Include="src\Wrapper1\SoundEffect1.cs" />
+    <Compile Include="src\Wrapper1\SoundEffectData1.cs" />
+    <Compile Include="src\Wrapper1\TouchInput.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="DxLibDotNet, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DxLibDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="src\App1\Battle\BattleProgram\BattleRunDebugMemo.txt" />
+    <Content Include="src\Memo\BattleMemo.txt" />
+    <Content Include="src\Memo\Memo.txt" />
+    <Content Include="src\Memo\verup_add.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
