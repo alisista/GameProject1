@@ -36,7 +36,7 @@ CPU：1GHz あれば十分<br>
 <br>
 ○ テスト制作中のゲームの実行について（ver 0.01）<br>
 <br>
-・必要なもの
+・必要なもの<br>
 Windows + Visual Studio（「Visual C#」。無料版で動作可能）<br>
 <br>
 １，programディレクトリ内のデータを全部DL<br>
