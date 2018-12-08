@@ -14,7 +14,7 @@ http://natural-wings.net/<br>
 イラスト：ALISコミュニティ<br>
 https://discordapp.com/invite/zKKNtUe<br>
 <br>
-ライブラリ：DXライブラリ
+ライブラリ：DXライブラリ<br>
 http://dxlib.o.oo7.jp/<br>
 <br>
 <br>
