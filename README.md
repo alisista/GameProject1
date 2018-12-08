@@ -3,7 +3,7 @@
 ALISゲームプロジェクトに関することを、こちらにも記載していきます。<br>
 <br>
 <br>
-○ 主な制作者<br>
+○ 主な制作者など<br>
 <br>
 代表：ゆうき<br>
 https://twitter.com/yuuki_tw1<br>
@@ -12,7 +12,7 @@ https://twitter.com/yuuki_tw1<br>
 http://natural-wings.net/<br>
 <br>
 イラスト：ALISコミュニティ<br>
-https://discordapp.com/invite/zKKNtUe<br>
+https://discord.gg/xH7s9Q6<br>
 <br>
 ライブラリ：DXライブラリ<br>
 http://dxlib.o.oo7.jp/<br>
